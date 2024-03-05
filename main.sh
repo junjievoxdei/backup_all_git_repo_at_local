@@ -20,7 +20,7 @@ while true; do
     timestamp=$(date +"%Y%m%d%H%M%S")
 
     # Create a folder with the timestamp as the name under /home/test/
-    folder_name="/home/test/clone_${timestamp}"
+    folder_name="the-path-you-want-to-save---/clone_${timestamp}"
     mkdir "${folder_name}"
 
     # Clone each repository into a subfolder
